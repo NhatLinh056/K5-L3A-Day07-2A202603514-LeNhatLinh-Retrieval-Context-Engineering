@@ -1,0 +1,44 @@
+{
+  "tfidf": {
+    "name": "TF-IDF (Lexical Baseline)",
+    "split": "dev",
+    "n": 15,
+    "hit1": "1/15 (6.7%)",
+    "hit1_count": 1,
+    "evidence_hit3": "2/15 (13.3%)",
+    "hit3_count": 2,
+    "context_evidence_rate": "1/15 (6.7%)",
+    "context_hit_count": 1,
+    "median_ms": 0.88,
+    "mean_ms": 0.91,
+    "api_cost_usd": 0.0
+  },
+  "dense": {
+    "name": "Dense Retrieval (Vector Day 6)",
+    "split": "dev",
+    "n": 15,
+    "hit1": "4/15 (26.7%)",
+    "hit1_count": 4,
+    "evidence_hit3": "7/15 (46.7%)",
+    "hit3_count": 7,
+    "context_evidence_rate": "6/15 (40.0%)",
+    "context_hit_count": 6,
+    "median_ms": 0.39,
+    "mean_ms": 0.37,
+    "api_cost_usd": 0.0
+  },
+  "hybrid_rrf": {
+    "name": "Hybrid Retrieval (Dense + TF-IDF RRF)",
+    "split": "dev",
+    "n": 15,
+    "hit1": "2/15 (13.3%)",
+    "hit1_count": 2,
+    "evidence_hit3": "5/15 (33.3%)",
+    "hit3_count": 5,
+    "context_evidence_rate": "3/15 (20.0%)",
+    "context_hit_count": 3,
+    "median_ms": 1.13,
+    "mean_ms": 1.13,
+    "api_cost_usd": 0.0
+  }
+}

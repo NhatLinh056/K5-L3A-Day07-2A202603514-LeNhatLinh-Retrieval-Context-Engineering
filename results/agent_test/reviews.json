@@ -1,0 +1,50 @@
+[
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_note": "Trả lời đúng và đủ theo trích dẫn nguồn: rất rộng và có nhiều dạng địa hình"
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "audit_note": "Bị từ chối trên câu có đáp án (chấm 0 điểm)"
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "audit_note": "Bị từ chối trên câu có đáp án (chấm 0 điểm)"
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "audit_note": "Bị từ chối trên câu có đáp án (chấm 0 điểm)"
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "audit_note": "Bị từ chối trên câu có đáp án (chấm 0 điểm)"
+  },
+  {
+    "query_id": "q_test_unans_01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "audit_note": "Chủ động từ chối đúng trên câu thiếu bằng chứng"
+  },
+  {
+    "query_id": "q_test_unans_02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "audit_note": "Chủ động từ chối đúng trên câu thiếu bằng chứng"
+  }
+]

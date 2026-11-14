@@ -1,0 +1,475 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Khuôn viên Pemberley được miêu tả có quy mô và địa hình thế nào?",
+    "status": "answered",
+    "answer": "Rất rộng và có nhiều dạng địa hình [pride_and_prejudice:43:fixed:0]",
+    "citations": [
+      "pride_and_prejudice:43:fixed:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "turn": 0,
+        "query": "Pride and Prejudice The park was very large, and contained great variety of grou",
+        "filter": null,
+        "retriever_ms": 15.345100000558887,
+        "turn_ms": 0.05469999996421393,
+        "results": [
+          {
+            "id": "pride_and_prejudice:43:fixed:0",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 43,
+            "text": "Elizabeth, as they drove along, watched for the first appearance of Pemberley Woods with some perturbation; and when at length they turned in at the lodge, her spirits were in a high flutter.\n\nThe park was very large, and contained great variety of ground. They entered it in one of its lowest points, and drove for some time through a beautiful wood stretching over a wide extent.\n\nElizabeth’s mind was too full for conversation, but she saw and admired every remarkable spot and point of view. They gradually ascended for half a mile, and then found themselves at the top of a considerable eminence, where the wood ceased, and the eye was instantly caught by Pemberley House, situated on the opposite side of the valley, into which the road with some abruptness wound. It was a large, handsome ston",
+            "metadata": {
+              "chapter": 43
+            },
+            "score": 0.3993285298347473,
+            "strategy": "dense"
+          },
+          {
+            "id": "pride_and_prejudice:29:fixed:3",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 29,
+            "text": "a Lucas, who had been little used to company; and she looked forward to her introduction at Rosings with as much apprehension as her father had done to his presentation at St. James’s.\n\nAs the weather was fine, they had a pleasant walk of about half a mile across the park. Every park has its beauty and its prospects; and Elizabeth saw much to be pleased with, though she could not be in such raptures as Mr. Collins expected the scene to inspire, and was but slightly affected by his enumeration of the windows in front of the house, and his relation of what the glazing altogether had originally cost Sir Lewis de Bourgh.\n\nWhen they ascended the steps to the hall, Maria’s alarm was every moment increasing, and even Sir William did not look perfectly calm. Elizabeth’s courage did not fail her. S",
+            "metadata": {
+              "chapter": 29
+            },
+            "score": 0.3526204824447632,
+            "strategy": "dense"
+          },
+          {
+            "id": "pride_and_prejudice:43:fixed:22",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 43,
+            "text": "lt the necessity of appearing more like herself.\n\nThey entered the woods, and, bidding adieu to the river for a while, ascended some of the higher grounds; whence, in spots where the opening of the trees gave the eye power to wander, were many charming views of the valley, the opposite hills, with the long range of woods overspreading many, and occasionally part of the stream. Mr. Gardiner expressed a wish of going round the whole park, but feared it might be beyond a walk. With a triumphant smile, they were told, that it was ten miles round. It settled the matter; and they pursued the accustomed circuit; which brought them again, after some time, in a descent among hanging woods, to the edge of the water, and one of its narrowest parts. They crossed it by a simple bridge, in character wit",
+            "metadata": {
+              "chapter": 43
+            },
+            "score": 0.31247779726982117,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[pride_and_prejudice:43:fixed:0 | https://www.gutenberg.org/ebooks/1342 | page 43]\nElizabeth, as they drove along, watched for the first appearance of Pemberley Woods with some perturbation; and when at length they turned in at the lodge, her spirits were in a high flutter.\n\nThe park was very large, and contained great variety of ground. They entered it in one of its lowest points, and drove for some time through a beautiful wood stretching over a wide extent.\n\nElizabeth’s mind was too full for conversation, but she saw and admired every remarkable spot and point of view. They gradually ascended for half a mile, and then found themselves at the top of a considerable eminence, where the wood ceased, and the eye was instantly caught by Pemberley House, situated on the opposite side of the valley, into which the road with some abruptness wound. It was a large, handsome ston\n\n[pride_and_prejudice:29:fixed:3 | https://www.gutenberg.org/ebooks/1342 | page 29]\na Lucas, who had been little used to company; and she looked forward to her introduction at Rosings with as much apprehension as her father had done to his presentation at St. James’s.\n\nAs the weather was fine, they had a pleasant walk of about half a mile across the park. Every park has its beauty and its prospects; and Elizabeth saw much to be pleased with, though she could not be in such raptures as Mr. Collins expected the scene to inspire, and was but slightly affected by his enumeration of the windows in front of the house, and his relation of what the glazing altogether had originally cost Sir Lewis de Bourgh.\n\nWhen they ascended the steps to the hall, Maria’s alarm was every moment increasing, and even Sir William did not look perfectly calm. Elizabeth’s courage did not fail her. S",
+        "context_ids": [
+          "pride_and_prejudice:43:fixed:0",
+          "pride_and_prejudice:29:fixed:3"
+        ]
+      },
+      {
+        "event": "answer",
+        "turn": 1,
+        "turn_ms": 2513.9643999991677
+      }
+    ],
+    "elapsed_ms": 2529.4204000001628
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Elizabeth nhận được mấy lá thư từ Jane cùng lúc?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "turn": 0,
+        "query": "Pride and Prejudice by the receipt of two letters from her at once",
+        "filter": null,
+        "retriever_ms": 14.433499998631305,
+        "turn_ms": 0.05160000000614673,
+        "results": [
+          {
+            "id": "pride_and_prejudice:35:fixed:3",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 35,
+            "text": "at eight o’clock in the morning, and was as follows:--\n\n“Be not alarmed, madam, on receiving this letter, by the apprehension of its containing any repetition of those sentiments, or renewal of those offers, which were last night so disgusting to you. I write without any intention of paining you, or humbling myself, by dwelling on wishes, which, for the happiness of both, cannot be too soon forgotten; and the effort which the formation and the perusal of this letter must occasion, should have been spared, had not my character required it to be written and read. You must, therefore, pardon the freedom with which I demand your attention; your feelings, I know, will bestow it unwillingly, but I demand it of your justice.\n\n“Two offences of a very different nature, and by no means of equal magn",
+            "metadata": {
+              "chapter": 35
+            },
+            "score": 0.632312536239624,
+            "strategy": "dense"
+          },
+          {
+            "id": "pride_and_prejudice:21:fixed:3",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 21,
+            "text": "er was delivered to Miss Bennet; it came from Netherfield, and was opened immediately. The envelope contained a sheet of elegant, little, hot-pressed paper, well covered with a lady’s fair, flowing hand; and Elizabeth saw her sister’s countenance change as she read it, and saw her dwelling intently on some particular passages. Jane recollected herself soon; and putting the letter away, tried to join, with her usual cheerfulness, in the general conversation: but Elizabeth felt an anxiety on the subject which drew off her attention even from Wickham; and no sooner had he and his companion taken leave, than a glance from Jane invited her to follow her upstairs. When they had gained their own room, Jane, taking out her letter, said, “This is from Caroline Bingley: what it contains has surprise",
+            "metadata": {
+              "chapter": 21
+            },
+            "score": 0.60692298412323,
+            "strategy": "dense"
+          },
+          {
+            "id": "pride_and_prejudice:36:fixed:2",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 36,
+            "text": "arming an affinity to his own history of himself--her feelings were yet more acutely painful and more difficult of definition. Astonishment, apprehension, and even horror, oppressed her. She wished to discredit it entirely, repeatedly exclaiming, “This must be false! This cannot be! This must be the grossest falsehood!”--and when she had gone through the whole letter, though scarcely knowing anything of the last page or two, put it hastily away, protesting that she would not regard it, that she would never look in it again.\n\nIn this perturbed state of mind, with thoughts that could rest on nothing, she walked on; but it would not do: in half a minute the letter was unfolded again; and collecting herself as well as she could, she again began the mortifying perusal of all that related to Wic",
+            "metadata": {
+              "chapter": 36
+            },
+            "score": 0.6003372073173523,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[pride_and_prejudice:35:fixed:3 | https://www.gutenberg.org/ebooks/1342 | page 35]\nat eight o’clock in the morning, and was as follows:--\n\n“Be not alarmed, madam, on receiving this letter, by the apprehension of its containing any repetition of those sentiments, or renewal of those offers, which were last night so disgusting to you. I write without any intention of paining you, or humbling myself, by dwelling on wishes, which, for the happiness of both, cannot be too soon forgotten; and the effort which the formation and the perusal of this letter must occasion, should have been spared, had not my character required it to be written and read. You must, therefore, pardon the freedom with which I demand your attention; your feelings, I know, will bestow it unwillingly, but I demand it of your justice.\n\n“Two offences of a very different nature, and by no means of equal magn\n\n[pride_and_prejudice:21:fixed:3 | https://www.gutenberg.org/ebooks/1342 | page 21]\ner was delivered to Miss Bennet; it came from Netherfield, and was opened immediately. The envelope contained a sheet of elegant, little, hot-pressed paper, well covered with a lady’s fair, flowing hand; and Elizabeth saw her sister’s countenance change as she read it, and saw her dwelling intently on some particular passages. Jane recollected herself soon; and putting the letter away, tried to join, with her usual cheerfulness, in the general conversation: but Elizabeth felt an anxiety on the subject which drew off her attention even from Wickham; and no sooner had he and his companion taken leave, than a glance from Jane invited her to follow her upstairs. When they had gained their own room, Jane, taking out her letter, said, “This is from Caroline Bingley: what it contains has surprise",
+        "context_ids": [
+          "pride_and_prejudice:35:fixed:3",
+          "pride_and_prejudice:21:fixed:3"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "turn": 1,
+        "turn_ms": 1823.4714999998687
+      }
+    ],
+    "elapsed_ms": 1838.0003999991459
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Trong chương 49, ai gửi thư nhanh cho ông Bennet?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "turn": 0,
+        "query": "Pride and Prejudice there is an express come for master from Mr. Gardiner?",
+        "filter": {
+          "chapter": 49
+        },
+        "retriever_ms": 15.585700000883662,
+        "turn_ms": 0.06359999861160759,
+        "results": [
+          {
+            "id": "pride_and_prejudice:49:fixed:12",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 49,
+            "text": "e communication would, therefore, do for all. After a slight preparation for good news, the letter was read aloud. Mrs. Bennet could hardly contain herself. As soon as Jane had read Mr. Gardiner’s hope of Lydia’s being soon married, her joy burst forth, and every following sentence added to its exuberance. She was now in an irritation as violent from delight as she had ever been fidgety from alarm and vexation. To know that her daughter would be married was enough. She was disturbed by no fear for her felicity, nor humbled by any remembrance of her misconduct.\n\n“My dear, dear Lydia!” she cried: “this is delightful indeed! She will be married! I shall see her again! She will be married at sixteen! My good, kind brother! I knew how it would be--I knew he would manage everything. How I long t",
+            "metadata": {
+              "chapter": 49
+            },
+            "score": 0.4341398775577545,
+            "strategy": "dense"
+          },
+          {
+            "id": "pride_and_prejudice:49:fixed:2",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 49,
+            "text": "anting for breath, came up with him, and eagerly cried out,--\n\n“Oh, papa, what news? what news? have you heard from my uncle?”\n\n“Yes, I have had a letter from him by express.”\n\n“Well, and what news does it bring--good or bad?”\n\n“What is there of good to be expected?” said he, taking the letter from his pocket; “but perhaps you would like to read it.”\n\nElizabeth impatiently caught it from his hand. Jane now came up.\n\n“Read it aloud,” said their father, “for I hardly know myself what it is about.”\n\n/* RIGHT “Gracechurch Street, _Monday, August 2_. */\n\n“My dear Brother,\n\n“At last I am able to send you some tidings of my niece, and such as, upon the whole, I hope will give you satisfaction. Soon after you left me on Saturday, I was fortunate enough to find out in what part of London they were.",
+            "metadata": {
+              "chapter": 49
+            },
+            "score": 0.4220459759235382,
+            "strategy": "dense"
+          },
+          {
+            "id": "pride_and_prejudice:49:fixed:16",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 49,
+            "text": " in Meryton? Oh! here comes Hill. My dear Hill, have you heard the good news? Miss Lydia is going to be married; and you shall all have a bowl of punch to make merry at her wedding.”\n\nMrs. Hill began instantly to express her joy. Elizabeth received her congratulations amongst the rest, and then, sick of this folly, took refuge in her own room, that she might think with freedom. Poor Lydia’s situation must, at best, be bad enough; but that it was no worse, she had need to be thankful. She felt it so; and though, in looking forward, neither rational happiness, nor worldly prosperity could be justly expected for her sister, in looking back to what they had feared, only two hours ago, she felt all the advantages of what they had gained.",
+            "metadata": {
+              "chapter": 49
+            },
+            "score": 0.4100722670555115,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[pride_and_prejudice:49:fixed:12 | https://www.gutenberg.org/ebooks/1342 | page 49]\ne communication would, therefore, do for all. After a slight preparation for good news, the letter was read aloud. Mrs. Bennet could hardly contain herself. As soon as Jane had read Mr. Gardiner’s hope of Lydia’s being soon married, her joy burst forth, and every following sentence added to its exuberance. She was now in an irritation as violent from delight as she had ever been fidgety from alarm and vexation. To know that her daughter would be married was enough. She was disturbed by no fear for her felicity, nor humbled by any remembrance of her misconduct.\n\n“My dear, dear Lydia!” she cried: “this is delightful indeed! She will be married! I shall see her again! She will be married at sixteen! My good, kind brother! I knew how it would be--I knew he would manage everything. How I long t\n\n[pride_and_prejudice:49:fixed:2 | https://www.gutenberg.org/ebooks/1342 | page 49]\nanting for breath, came up with him, and eagerly cried out,--\n\n“Oh, papa, what news? what news? have you heard from my uncle?”\n\n“Yes, I have had a letter from him by express.”\n\n“Well, and what news does it bring--good or bad?”\n\n“What is there of good to be expected?” said he, taking the letter from his pocket; “but perhaps you would like to read it.”\n\nElizabeth impatiently caught it from his hand. Jane now came up.\n\n“Read it aloud,” said their father, “for I hardly know myself what it is about.”\n\n/* RIGHT “Gracechurch Street, _Monday, August 2_. */\n\n“My dear Brother,\n\n“At last I am able to send you some tidings of my niece, and such as, upon the whole, I hope will give you satisfaction. Soon after you left me on Saturday, I was fortunate enough to find out in what part of London they were.",
+        "context_ids": [
+          "pride_and_prejudice:49:fixed:12",
+          "pride_and_prejudice:49:fixed:2"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "turn": 1,
+        "turn_ms": 1855.979899999511
+      }
+    ],
+    "elapsed_ms": 1871.689300000071
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Ai đến thăm gia đình Bennet một mình trong chương 55?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "turn": 0,
+        "query": "Pride and Prejudice Mr. Bingley called again, and alone.",
+        "filter": null,
+        "retriever_ms": 13.519699999960721,
+        "turn_ms": 0.06010000106471125,
+        "results": [
+          {
+            "id": "pride_and_prejudice:18:fixed:19",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 18,
+            "text": "m Mr. Darcy more than once, but he believes that it was left to him _conditionally_ only.”\n\n“I have not a doubt of Mr. Bingley’s sincerity,” said Elizabeth warmly, “but you must excuse my not being convinced by assurances only. Mr. Bingley’s defence of his friend was a very able one, I dare say; but since he is unacquainted with several parts of the story, and has learnt the rest from that friend himself, I shall venture still to think of both gentlemen as I did before.”\n\nShe then changed the discourse to one more gratifying to each, and on which there could be no difference of sentiment. Elizabeth listened with delight to the happy though modest hopes which Jane entertained of Bingley’s regard, and said all in her power to heighten her confidence in it. On their being joined by Mr. Bingle",
+            "metadata": {
+              "chapter": 18
+            },
+            "score": 0.5835328102111816,
+            "strategy": "dense"
+          },
+          {
+            "id": "pride_and_prejudice:3:fixed:5",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 3,
+            "text": "r. Bingley had soon made himself acquainted with all the principal people in the room: he was lively and unreserved, danced every dance, was angry that the ball closed so early, and talked of giving one himself at Netherfield. Such amiable qualities must speak for themselves. What a contrast between him and his friend! Mr. Darcy danced only once with Mrs. Hurst and once with Miss Bingley, declined being introduced to any other lady, and spent the rest of the evening in walking about the room, speaking occasionally to one of his own party. His character was decided. He was the proudest, most disagreeable man in the world, and everybody hoped that he would never come there again. Amongst the most violent against him was Mrs. Bennet, whose dislike of his general behaviour was sharpened into p",
+            "metadata": {
+              "chapter": 3
+            },
+            "score": 0.5613424181938171,
+            "strategy": "dense"
+          },
+          {
+            "id": "pride_and_prejudice:10:fixed:6",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 10,
+            "text": "w; and if, as you were mounting your horse, a friend were to say, ‘Bingley, you had better stay till next week,’ you would probably do it--you would probably not go--and, at another word, might stay a month.”\n\n“You have only proved by this,” cried Elizabeth, “that Mr. Bingley did not do justice to his own disposition. You have shown him off now much more than he did himself.”\n\n“I am exceedingly gratified,” said Bingley, “by your converting what my friend says into a compliment on the sweetness of my temper. But I am afraid you are giving it a turn which that gentleman did by no means intend; for he would certainly think the better of me if, under such a circumstance, I were to give a flat denial, and ride off as fast as I could.”\n\n“Would Mr. Darcy then consider the rashness of your origina",
+            "metadata": {
+              "chapter": 10
+            },
+            "score": 0.5601201057434082,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[pride_and_prejudice:18:fixed:19 | https://www.gutenberg.org/ebooks/1342 | page 18]\nm Mr. Darcy more than once, but he believes that it was left to him _conditionally_ only.”\n\n“I have not a doubt of Mr. Bingley’s sincerity,” said Elizabeth warmly, “but you must excuse my not being convinced by assurances only. Mr. Bingley’s defence of his friend was a very able one, I dare say; but since he is unacquainted with several parts of the story, and has learnt the rest from that friend himself, I shall venture still to think of both gentlemen as I did before.”\n\nShe then changed the discourse to one more gratifying to each, and on which there could be no difference of sentiment. Elizabeth listened with delight to the happy though modest hopes which Jane entertained of Bingley’s regard, and said all in her power to heighten her confidence in it. On their being joined by Mr. Bingle\n\n[pride_and_prejudice:3:fixed:5 | https://www.gutenberg.org/ebooks/1342 | page 3]\nr. Bingley had soon made himself acquainted with all the principal people in the room: he was lively and unreserved, danced every dance, was angry that the ball closed so early, and talked of giving one himself at Netherfield. Such amiable qualities must speak for themselves. What a contrast between him and his friend! Mr. Darcy danced only once with Mrs. Hurst and once with Miss Bingley, declined being introduced to any other lady, and spent the rest of the evening in walking about the room, speaking occasionally to one of his own party. His character was decided. He was the proudest, most disagreeable man in the world, and everybody hoped that he would never come there again. Amongst the most violent against him was Mrs. Bennet, whose dislike of his general behaviour was sharpened into p",
+        "context_ids": [
+          "pride_and_prejudice:18:fixed:19",
+          "pride_and_prejudice:3:fixed:5"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "turn": 1,
+        "turn_ms": 1926.5262999997503
+      }
+    ],
+    "elapsed_ms": 1940.1490000000194
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Hai người nào đi chậm để những người khác vượt lên?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "turn": 0,
+        "query": "Pride and Prejudice Bingley and Jane, however, soon allowed the others to outstr",
+        "filter": null,
+        "retriever_ms": 16.437399999631452,
+        "turn_ms": 0.10509999992791563,
+        "results": [
+          {
+            "id": "pride_and_prejudice:40:fixed:9",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 40,
+            "text": "as lost all its value!”\n\nShe was now, on being settled at home, at leisure to observe the real state of her sister’s spirits. Jane was not happy. She still cherished a very tender affection for Bingley. Having never even fancied herself in love before, her regard had all the warmth of first attachment, and from her age and disposition, greater steadiness than first attachments often boast; and so fervently did she value his remembrance, and prefer him to every other man, that all her good sense, and all her attention to the feelings of her friends, were requisite to check the indulgence of those regrets which must have been injurious to her own health and their tranquillity.\n\n“Well, Lizzy,” said Mrs. Bennet, one day, “what is your opinion _now_ of this sad business of Jane’s? For my part, ",
+            "metadata": {
+              "chapter": 40
+            },
+            "score": 0.666165828704834,
+            "strategy": "dense"
+          },
+          {
+            "id": "pride_and_prejudice:25:fixed:8",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 25,
+            "text": "ut, in spite of the certainty in which Elizabeth affected to place this point, as well as the still more interesting one of Bingley’s being withheld from seeing Jane, she felt a solicitude on the subject which convinced her, on examination, that she did not consider it entirely hopeless. It was possible, and sometimes she thought it probable, that his affection might be re-animated, and the influence of his friends successfully combated by the more natural influence of Jane’s attractions.\n\nMiss Bennet accepted her aunt’s invitation with pleasure; and the Bingleys were no otherwise in her thoughts at the same time than as she hoped, by Caroline’s not living in the same house with her brother, she might occasionally spend a morning with her, without any danger of seeing him.\n\nThe Gardiners s",
+            "metadata": {
+              "chapter": 25
+            },
+            "score": 0.6639564037322998,
+            "strategy": "dense"
+          },
+          {
+            "id": "pride_and_prejudice:36:fixed:10",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 36,
+            "text": "had been gratifying his vanity by encouraging the preference which she believed she had most incautiously shown. Every lingering struggle in his favour grew fainter and fainter; and in further justification of Mr. Darcy, she could not but allow that Mr. Bingley, when questioned by Jane, had long ago asserted his blamelessness in the affair;--that, proud and repulsive as were his manners, she had never, in the whole course of their acquaintance--an acquaintance which had latterly brought them much together, and given her a sort of intimacy with his ways--seen anything that betrayed him to be unprincipled or unjust--anything that spoke him of irreligious or immoral habits;--that among his own connections he was esteemed and valued;--that even Wickham had allowed him merit as a brother, and t",
+            "metadata": {
+              "chapter": 36
+            },
+            "score": 0.6324501037597656,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[pride_and_prejudice:40:fixed:9 | https://www.gutenberg.org/ebooks/1342 | page 40]\nas lost all its value!”\n\nShe was now, on being settled at home, at leisure to observe the real state of her sister’s spirits. Jane was not happy. She still cherished a very tender affection for Bingley. Having never even fancied herself in love before, her regard had all the warmth of first attachment, and from her age and disposition, greater steadiness than first attachments often boast; and so fervently did she value his remembrance, and prefer him to every other man, that all her good sense, and all her attention to the feelings of her friends, were requisite to check the indulgence of those regrets which must have been injurious to her own health and their tranquillity.\n\n“Well, Lizzy,” said Mrs. Bennet, one day, “what is your opinion _now_ of this sad business of Jane’s? For my part, \n\n[pride_and_prejudice:25:fixed:8 | https://www.gutenberg.org/ebooks/1342 | page 25]\nut, in spite of the certainty in which Elizabeth affected to place this point, as well as the still more interesting one of Bingley’s being withheld from seeing Jane, she felt a solicitude on the subject which convinced her, on examination, that she did not consider it entirely hopeless. It was possible, and sometimes she thought it probable, that his affection might be re-animated, and the influence of his friends successfully combated by the more natural influence of Jane’s attractions.\n\nMiss Bennet accepted her aunt’s invitation with pleasure; and the Bingleys were no otherwise in her thoughts at the same time than as she hoped, by Caroline’s not living in the same house with her brother, she might occasionally spend a morning with her, without any danger of seeing him.\n\nThe Gardiners s",
+        "context_ids": [
+          "pride_and_prejudice:40:fixed:9",
+          "pride_and_prejudice:25:fixed:8"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "turn": 1,
+        "turn_ms": 2497.23830000039
+      }
+    ],
+    "elapsed_ms": 2513.839999999618
+  },
+  {
+    "query_id": "q_test_unans_01",
+    "split": "test",
+    "question": "Trong hôn lễ của Jane và Bingley, Hoàng tử xứ Wales có gửi thư chúc mừng hay cử sứ giả đến tham dự không?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "turn": 0,
+        "query": "Pride and Prejudice Trong hôn lễ của Jane và Bingley, Hoàng tử xứ Wales có gửi thư chúc mừng hay cử sứ giả đến tham dự không?",
+        "filter": null,
+        "retriever_ms": 17.321900000752066,
+        "turn_ms": 0.11590000030992087,
+        "results": [
+          {
+            "id": "pride_and_prejudice:60:fixed:8",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 60,
+            "text": "tyle, and still different from either was what Mr. Bennet sent to Mr. Collins, in return for his last.\n\n/* “Dear Sir, */\n\n“I must trouble you once more for congratulations. Elizabeth will soon be the wife of Mr. Darcy. Console Lady Catherine as well as you can. But, if I were you, I would stand by the nephew. He has more to give.\n\n“Yours sincerely,” etc.\n\nMiss Bingley’s congratulations to her brother on his approaching marriage were all that was affectionate and insincere. She wrote even to Jane on the occasion, to express her delight, and repeat all her former professions of regard. Jane was not deceived, but she was affected; and though feeling no reliance on her, could not help writing her a much kinder answer than she knew was deserved.\n\nThe joy which Miss Darcy expressed on receiving ",
+            "metadata": {
+              "chapter": 60
+            },
+            "score": 0.6950857639312744,
+            "strategy": "dense"
+          },
+          {
+            "id": "pride_and_prejudice:24:fixed:0",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 24,
+            "text": "Miss Bingley’s letter arrived, and put an end to doubt. The very first sentence conveyed the assurance of their being all settled in London for the winter, and concluded with her brother’s regret at not having had time to pay his respects to his friends in Hertfordshire before he left the country.\n\nHope was over, entirely over; and when Jane could attend to the rest of the letter, she found little, except the professed affection of the writer, that could give her any comfort. Miss Darcy’s praise occupied the chief of it. Her many attractions were again dwelt on; and Caroline boasted joyfully of their increasing intimacy, and ventured to predict the accomplishment of the wishes which had been unfolded in her former letter. She wrote also with great pleasure of her brother’s being an inmate ",
+            "metadata": {
+              "chapter": 24
+            },
+            "score": 0.6862322688102722,
+            "strategy": "dense"
+          },
+          {
+            "id": "pride_and_prejudice:54:fixed:3",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 54,
+            "text": " a triumphant sensation, looked towards his friend. He bore it with noble indifference; and she would have imagined that Bingley had received his sanction to be happy, had she not seen his eyes likewise turned towards Mr. Darcy, with an expression of half-laughing alarm.\n\nHis behaviour to her sister was such during dinnertime as showed an admiration of her, which, though more guarded than formerly, persuaded Elizabeth, that, if left wholly to himself, Jane’s happiness, and his own, would be speedily secured. Though she dared not depend upon the consequence, she yet received pleasure from observing his behaviour. It gave her all the animation that her spirits could boast; for she was in no cheerful humour. Mr. Darcy was almost as far from her as the table could divide them. He was on one si",
+            "metadata": {
+              "chapter": 54
+            },
+            "score": 0.6538839340209961,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[pride_and_prejudice:60:fixed:8 | https://www.gutenberg.org/ebooks/1342 | page 60]\ntyle, and still different from either was what Mr. Bennet sent to Mr. Collins, in return for his last.\n\n/* “Dear Sir, */\n\n“I must trouble you once more for congratulations. Elizabeth will soon be the wife of Mr. Darcy. Console Lady Catherine as well as you can. But, if I were you, I would stand by the nephew. He has more to give.\n\n“Yours sincerely,” etc.\n\nMiss Bingley’s congratulations to her brother on his approaching marriage were all that was affectionate and insincere. She wrote even to Jane on the occasion, to express her delight, and repeat all her former professions of regard. Jane was not deceived, but she was affected; and though feeling no reliance on her, could not help writing her a much kinder answer than she knew was deserved.\n\nThe joy which Miss Darcy expressed on receiving \n\n[pride_and_prejudice:24:fixed:0 | https://www.gutenberg.org/ebooks/1342 | page 24]\nMiss Bingley’s letter arrived, and put an end to doubt. The very first sentence conveyed the assurance of their being all settled in London for the winter, and concluded with her brother’s regret at not having had time to pay his respects to his friends in Hertfordshire before he left the country.\n\nHope was over, entirely over; and when Jane could attend to the rest of the letter, she found little, except the professed affection of the writer, that could give her any comfort. Miss Darcy’s praise occupied the chief of it. Her many attractions were again dwelt on; and Caroline boasted joyfully of their increasing intimacy, and ventured to predict the accomplishment of the wishes which had been unfolded in her former letter. She wrote also with great pleasure of her brother’s being an inmate ",
+        "context_ids": [
+          "pride_and_prejudice:60:fixed:8",
+          "pride_and_prejudice:24:fixed:0"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "turn": 1,
+        "turn_ms": 2186.829599999328
+      }
+    ],
+    "elapsed_ms": 2204.331599999932
+  },
+  {
+    "query_id": "q_test_unans_02",
+    "split": "test",
+    "question": "Sau khi kết hôn với Wickham, Lydia có chuyển sang định cư lâu dài tại New York không?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "turn": 0,
+        "query": "Pride and Prejudice Sau khi kết hôn với Wickham, Lydia có chuyển sang định cư lâu dài tại New York không?",
+        "filter": null,
+        "retriever_ms": 15.234100001180195,
+        "turn_ms": 0.0669999990350334,
+        "results": [
+          {
+            "id": "pride_and_prejudice:52:fixed:5",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 52,
+            "text": "receive her, offering his assistance as far as it would go. But he found Lydia absolutely resolved on remaining where she was. She cared for none of her friends; she wanted no help of his; she would not hear of leaving Wickham. She was sure they should be married some time or other, and it did not much signify when. Since such were her feelings, it only remained, he thought, to secure and expedite a marriage, which, in his very first conversation with Wickham, he easily learnt had never been _his_ design. He confessed himself obliged to leave the regiment on account of some debts of honour which were very pressing; and scrupled not to lay all the ill consequences of Lydia’s flight on her own folly alone. He meant to resign his commission immediately; and as to his future situation, he coul",
+            "metadata": {
+              "chapter": 52
+            },
+            "score": 0.6112726330757141,
+            "strategy": "dense"
+          },
+          {
+            "id": "pride_and_prejudice:46:fixed:18",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 46,
+            "text": "ther less interesting mode of attachment. Be that as it may, she saw him go with regret; and in this early example of what Lydia’s infamy must produce, found additional anguish as she reflected on that wretched business. Never since reading Jane’s second letter had she entertained a hope of Wickham’s meaning to marry her. No one but Jane, she thought, could flatter herself with such an expectation. Surprise was the least of all her feelings on this development. While the contents of the first letter remained on her mind, she was all surprise, all astonishment, that Wickham should marry a girl whom it was impossible he could marry for money; and how Lydia could ever have attached him had appeared incomprehensible. But now it was all too natural. For such an attachment as this, she might hav",
+            "metadata": {
+              "chapter": 46
+            },
+            "score": 0.6074036359786987,
+            "strategy": "dense"
+          },
+          {
+            "id": "pride_and_prejudice:61:fixed:2",
+            "source_id": "pride_and_prejudice",
+            "source": "https://www.gutenberg.org/ebooks/1342",
+            "page": 61,
+            "text": "was great. She was not of so ungovernable a temper as Lydia; and, removed from the influence of Lydia’s example, she became, by proper attention and management, less irritable, less ignorant, and less insipid. From the further disadvantage of Lydia’s society she was of course carefully kept; and though Mrs. Wickham frequently invited her to come and stay with her, with the promise of balls and young men, her father would never consent to her going.\n\nMary was the only daughter who remained at home; and she was necessarily drawn from the pursuit of accomplishments by Mrs. Bennet’s being quite unable to sit alone. Mary was obliged to mix more with the world, but she could still moralize over every morning visit; and as she was no longer mortified by comparisons between her sisters’ beauty and",
+            "metadata": {
+              "chapter": 61
+            },
+            "score": 0.5975086092948914,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[pride_and_prejudice:52:fixed:5 | https://www.gutenberg.org/ebooks/1342 | page 52]\nreceive her, offering his assistance as far as it would go. But he found Lydia absolutely resolved on remaining where she was. She cared for none of her friends; she wanted no help of his; she would not hear of leaving Wickham. She was sure they should be married some time or other, and it did not much signify when. Since such were her feelings, it only remained, he thought, to secure and expedite a marriage, which, in his very first conversation with Wickham, he easily learnt had never been _his_ design. He confessed himself obliged to leave the regiment on account of some debts of honour which were very pressing; and scrupled not to lay all the ill consequences of Lydia’s flight on her own folly alone. He meant to resign his commission immediately; and as to his future situation, he coul\n\n[pride_and_prejudice:46:fixed:18 | https://www.gutenberg.org/ebooks/1342 | page 46]\nther less interesting mode of attachment. Be that as it may, she saw him go with regret; and in this early example of what Lydia’s infamy must produce, found additional anguish as she reflected on that wretched business. Never since reading Jane’s second letter had she entertained a hope of Wickham’s meaning to marry her. No one but Jane, she thought, could flatter herself with such an expectation. Surprise was the least of all her feelings on this development. While the contents of the first letter remained on her mind, she was all surprise, all astonishment, that Wickham should marry a girl whom it was impossible he could marry for money; and how Lydia could ever have attached him had appeared incomprehensible. But now it was all too natural. For such an attachment as this, she might hav",
+        "context_ids": [
+          "pride_and_prejudice:52:fixed:5",
+          "pride_and_prejudice:46:fixed:18"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "turn": 1,
+        "turn_ms": 1958.758200000375
+      }
+    ],
+    "elapsed_ms": 1974.1100000010192
+  }
+]

@@ -1,0 +1,174 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Ai là một trong những người đến thăm ông Bingley sớm nhất?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Ai đã báo tin cho bà Bennet về Netherfield Park?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Jane cảm thấy thế nào khi được mời khiêu vũ lần thứ hai?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Điền sản của ông Bennet mang lại khoảng bao nhiêu tiền mỗi năm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Ai quan sát ông Darcy viết thư?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Ông Bennet mô tả vị khách sắp đến dùng bữa là người thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Ai đã nhận lời mời của người chú và có mặt trong nhà?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Trong chương 19, ai chính thức bày tỏ ý định cầu hôn?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Charlotte muốn hướng sự chú ý của ông Collins về phía ai?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Thứ Hai sau đó, bà Bennet đón những ai?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Viễn cảnh nào khiến Elizabeth vui trong chuyến đi?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Trong chương 31, họ được mời đến Rosings vào ngày nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Các lá thư Jane gửi Elizabeth ở Kent có lời phàn nàn trực tiếp không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Vì sao Lady Catherine muốn mời mọi người đến ăn tối?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Elizabeth nóng lòng kể chuyện đã xảy ra cho ai?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q_dev_unans_01",
+    "split": "dev",
+    "question": "Ông Bennet có từng sở hữu một trang trại nuôi ngựa đua tại Pháp trước khi kết hôn không?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trong Pride and Prejudice, ông Bennet chỉ có điền sản Longbourn ở Anh (2000 bảng/năm), không hề có thông tin sở hữu trang trại nuôi ngựa đua ở Pháp."
+  },
+  {
+    "id": "q_dev_unans_02",
+    "split": "dev",
+    "question": "Darcy đã tốt nghiệp đại học Oxford hay Cambridge và đạt học vị thủ khoa vào năm nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tác phẩm không đề cập trường đại học cụ thể mà Darcy theo học cũng như năm tốt nghiệp hay học vị thủ khoa."
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Khuôn viên Pemberley được miêu tả có quy mô và địa hình thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Elizabeth nhận được mấy lá thư từ Jane cùng lúc?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Trong chương 49, ai gửi thư nhanh cho ông Bennet?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Ai đến thăm gia đình Bennet một mình trong chương 55?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Hai người nào đi chậm để những người khác vượt lên?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q_test_unans_01",
+    "split": "test",
+    "question": "Trong hôn lễ của Jane và Bingley, Hoàng tử xứ Wales có gửi thư chúc mừng hay cử sứ giả đến tham dự không?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tác phẩm không đề cập đến Hoàng tử xứ Wales hay thư chúc mừng của hoàng gia trong đám cưới của Jane và Bingley."
+  },
+  {
+    "id": "q_test_unans_02",
+    "split": "test",
+    "question": "Sau khi kết hôn với Wickham, Lydia có chuyển sang định cư lâu dài tại New York không?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tác phẩm chỉ đề cập Wickham chuyển trung đoàn lên phương Bắc (Newcastle), hoàn toàn không chuyển sang định cư tại New York."
+  }
+]

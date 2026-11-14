@@ -1,0 +1,40 @@
+{
+  "cases": 17,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 17,
+    "N": 17
+  },
+  "grounded_answer": {
+    "0": 10,
+    "1": 0,
+    "2": 5,
+    "N": 15,
+    "mean": 0.6666666666666666
+  },
+  "citation_validity": {
+    "n": 5,
+    "N": 5
+  },
+  "answer_citation_coverage": {
+    "n": 5,
+    "N": 5
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 10,
+    "N": 15
+  },
+  "config_name": "optimized_budget2500",
+  "params": {
+    "budget": 2500,
+    "max_searches": 4,
+    "top_k": 4
+  },
+  "total_seconds": 5.4,
+  "avg_seconds_per_query": 0.32,
+  "api_cost_usd": 0.0
+}

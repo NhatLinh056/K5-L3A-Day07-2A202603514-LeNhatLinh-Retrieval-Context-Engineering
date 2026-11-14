@@ -1,0 +1,271 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Ai là một trong những người đến thăm ông Bingley sớm nhất?",
+    "expected_answer": "Ông Bennet",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 2,
+        "evidence": "Mr. Bennet was among the earliest of those who waited on Mr. Bingley."
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Ai đã báo tin cho bà Bennet về Netherfield Park?",
+    "expected_answer": "Bà Long",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 1,
+        "evidence": "Mrs. Long has just been here, and she told me all about it."
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Jane cảm thấy thế nào khi được mời khiêu vũ lần thứ hai?",
+    "expected_answer": "Cô rất hãnh diện",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 4,
+        "evidence": "I was very much flattered by his asking me to dance a second time."
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Điền sản của ông Bennet mang lại khoảng bao nhiêu tiền mỗi năm?",
+    "expected_answer": "Hai nghìn bảng mỗi năm",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 7,
+        "evidence": "Mr. Bennet’s property consisted almost entirely in an estate of two thousand a year"
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Ai quan sát ông Darcy viết thư?",
+    "expected_answer": "Cô Bingley",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 10,
+        "evidence": "Mr. Darcy was writing, and Miss Bingley, seated near him, was watching the progress of his letter"
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Ông Bennet mô tả vị khách sắp đến dùng bữa là người thế nào?",
+    "expected_answer": "Một quý ông xa lạ",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 13,
+        "evidence": "The person of whom I speak is a gentleman and a stranger."
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Ai đã nhận lời mời của người chú và có mặt trong nhà?",
+    "expected_answer": "Ông Wickham",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 16,
+        "evidence": "Mr. Wickham had accepted their uncle’s invitation, and was then in the house."
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Trong chương 19, ai chính thức bày tỏ ý định cầu hôn?",
+    "expected_answer": "Ông Collins",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 19,
+        "evidence": "Mr. Collins made his declaration in form."
+      }
+    ],
+    "filter": {
+      "chapter": 19
+    }
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Charlotte muốn hướng sự chú ý của ông Collins về phía ai?",
+    "expected_answer": "Chính Charlotte",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 22,
+        "evidence": "Charlotte’s kindness extended farther than Elizabeth had any conception of:--its object was nothing less than to secure her from any return of Mr. Collins’s addresses, by engaging them towards herself."
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Thứ Hai sau đó, bà Bennet đón những ai?",
+    "expected_answer": "Em trai bà và vợ ông ấy",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 25,
+        "evidence": "On the following Monday, Mrs. Bennet had the pleasure of receiving her brother and his wife"
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Viễn cảnh nào khiến Elizabeth vui trong chuyến đi?",
+    "expected_answer": "Chuyến đi miền Bắc sắp tới",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 28,
+        "evidence": "the prospect of her northern tour was a constant source of delight."
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Trong chương 31, họ được mời đến Rosings vào ngày nào?",
+    "expected_answer": "Ngày Phục sinh",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 31,
+        "evidence": "it was not till Easter-day, almost a week after the gentlemen’s arrival, that they were honoured by such an attention"
+      }
+    ],
+    "filter": {
+      "chapter": 31
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Các lá thư Jane gửi Elizabeth ở Kent có lời phàn nàn trực tiếp không?",
+    "expected_answer": "Không",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 34,
+        "evidence": "They contained no actual complaint"
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Vì sao Lady Catherine muốn mời mọi người đến ăn tối?",
+    "expected_answer": "Bà cảm thấy buồn chán",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 37,
+        "evidence": "she felt herself so dull as to make her very desirous of having them all to dine with her."
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Elizabeth nóng lòng kể chuyện đã xảy ra cho ai?",
+    "expected_answer": "Jane",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 40,
+        "evidence": "Elizabeth’s impatience to acquaint Jane with what had happened could no longer be overcome"
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Khuôn viên Pemberley được miêu tả có quy mô và địa hình thế nào?",
+    "expected_answer": "Rất rộng và có nhiều dạng địa hình",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 43,
+        "evidence": "The park was very large, and contained great variety of ground."
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Elizabeth nhận được mấy lá thư từ Jane cùng lúc?",
+    "expected_answer": "Hai lá thư",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 46,
+        "evidence": "by the receipt of two letters from her at once"
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Trong chương 49, ai gửi thư nhanh cho ông Bennet?",
+    "expected_answer": "Ông Gardiner",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 49,
+        "evidence": "there is an express come for master from Mr. Gardiner?"
+      }
+    ],
+    "filter": {
+      "chapter": 49
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Ai đến thăm gia đình Bennet một mình trong chương 55?",
+    "expected_answer": "Ông Bingley",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 55,
+        "evidence": "Mr. Bingley called again, and alone."
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Hai người nào đi chậm để những người khác vượt lên?",
+    "expected_answer": "Bingley và Jane",
+    "gold": [
+      {
+        "source_id": "pride_and_prejudice",
+        "page": 58,
+        "evidence": "Bingley and Jane, however, soon allowed the others to outstrip them."
+      }
+    ]
+  }
+]
